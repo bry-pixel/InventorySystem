@@ -1,2 +1,34 @@
-# bryan
-inventory
+#Inventory Sysrem
+
+**Database Name: inventory_system**
+
+**Admin Login Details**
+Username: admin
+Password: admin
+
+
+**Special User Login Details**
+Username: manager
+Password: manager
+
+
+**User(Employee) Login Details**
+Username: cashier
+Password: cashier 
+
+**Guest  Login Details**
+Username: guest
+Password: guest
+ 
+
+
+Develop by
+Bryan Bernal
+Kevin Salenga
+Livie Magdaraog
+Beatrix Mapa
+Melvin Josh Cagungun
+Jc Madrid
+Mohd Faisal
+lorelle Ricohermoso
+Angel Mae Cateza
