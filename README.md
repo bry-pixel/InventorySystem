@@ -38,10 +38,3 @@
 **Activity Logs** — Monitor user activity for transparency  
  **Secure Authentication System** — Protected access with validation  
 
----
-
-##  Getting Started
-
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/bry-pixel/bryan.git
