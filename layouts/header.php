@@ -140,6 +140,7 @@
   <?php endif;?>
 </div>
 <?php endif; ?>
+
 </div>
 
 <script>
@@ -177,4 +178,3 @@
 
 <div class="page">
   <div class="container-fluid">
-
