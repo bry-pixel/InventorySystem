@@ -15,6 +15,8 @@ $total_sales = find_by_sql("SELECT SUM(price*qty) AS revenue FROM sales");
 $total_sales = $total_sales[0]['revenue'] ?? 0;
 $total_items = find_by_sql("SELECT SUM(qty) AS total_items FROM sales");
 $total_items = $total_items[0]['total_items'] ?? 0;
+$total_transactions = count_by_id('transactions');
+
 
 ?>
 <?php include_once('layouts/header.php'); ?>
@@ -42,7 +44,7 @@ $total_items = $total_items[0]['total_items'] ?? 0;
             <div class="panel panel-box clearfix">
                 <div class="panel-icon pull-left bg-blue2"><i class="glyphicon glyphicon-list-alt"></i></div>
                 <div class="panel-value pull-right">
-                    <h2 class="margin-top"><?= $c_sale['total'] ?></h2>
+                    <h2 class="margin-top"><?= $total_transactions['total'] ?></h2>
                     <p class="text-muted">Transactions</p>
                 </div>
             </div>
