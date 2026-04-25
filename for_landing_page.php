@@ -1,6 +1,5 @@
 <?php
 require_once('includes/load.php');
-// Redirect if already logged in
 if ($session->isUserLoggedIn(true)) {
   redirect('index.php', false);
 }
@@ -25,7 +24,7 @@ if ($session->isUserLoggedIn(true)) {
 <style>
 body {
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  background: radial-gradient(circle at top, #1e3a8a, #020617);
   color: white;
   overflow-x: hidden;
 }
@@ -128,7 +127,7 @@ body {
 <nav class="navbar navbar-expand-lg fixed-top">
   <div class="container">
     <a class="navbar-brand text-white" href="#">
-      <i class="fa fa-box"></i> InventorySys
+      <i class="fa fa-box"></i> Inventory System
     </a>
 
     <div class="ms-auto">
@@ -143,11 +142,11 @@ body {
 
     <!-- TEXT -->
     <div class="col-md-6 fade-in">
-      <h1>Smart Inventory<br>Management System</h1>
+      <h1>Inventory<br>Management System</h1>
       <p>Manage products, track sales, monitor stock, and keep full audit logs — all in one powerful platform.</p>
 
       <div class="mt-4">
-        <a href="login.php" class="btn btn-glow">
+        <a href="index.php" class="btn btn-glow">
           <i class="fa fa-rocket"></i> Get Started
         </a>
       </div>
