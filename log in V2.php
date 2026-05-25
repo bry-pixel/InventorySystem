@@ -387,8 +387,8 @@ body::after{
       <h2>Smart Inventory<br>Monitoring System</h2>
 
       <p>
-        Modern inventory management solution with barcode support,
-        sales analytics, purchase tracking, and secure role-based access.
+        Modern inventory management solution with sales analytics,
+        purchase tracking, and secure role-based access.
       </p>
 
       <div class="stats">
